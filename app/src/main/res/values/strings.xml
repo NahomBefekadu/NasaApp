@@ -1,15 +1,25 @@
 <resources>
     <!-- String values for Activity -->
     <string name="app_name">NasaApp</string>
+    <!-- Login Activity -->
+    <string name="profile_name">Enter your Email:</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="passwordTitle"> Enter Password:</string>
+    <string name="login_button"> Login:</string>
+    <!-- Nasa Activity -->
     <string name="Butt_1">Favorites</string>
     <string name="Butt_2">Enter</string>
     <string name="Butt_3">Delete</string>
-    <string name="Butt_4">Return</string>
     <string name="Butt_5">Save</string>
     <string name="Str_1"> Enter Latitude</string>
     <string name="Str_2"> Enter Longitude</string>
+    <string name="Str_4"> Enter Date: YYYY-MM-DD</string>
     <string name="Str_3"> ... Loading</string>
-    <string name="test_1">Long:100.75  Lat:1.5</string>
-    <string name="test_2">Date: 2002/02/01 </string>
-
+    <string name="test_1">Long:</string>
+    <string name="test_2">Lat:</string>
+    <string name="test_3">Date: </string>
+    <!-- Fav Activity -->
+    <string name="Butt_4">Return</string>
+    <string name="Butt_6">Help</string>
 </resources>

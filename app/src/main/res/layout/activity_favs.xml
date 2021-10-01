@@ -7,14 +7,24 @@
     android:orientation="vertical"
     tools:context=".favs">
 
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
 
-
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
 
     <ListView
         android:id="@+id/Fav_List"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1" />
+        android:layout_weight="1" >
+
+    </ListView>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -26,8 +36,17 @@
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="10dp"
             android:text="@string/Butt_4" />
+        <Button
+            android:id="@+id/Help_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="@string/Butt_6" />
+
 
 
     </LinearLayout>
+
 
 </LinearLayout>
